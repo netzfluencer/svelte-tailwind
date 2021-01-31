@@ -2,9 +2,7 @@
   "name": "svelte-tailwind-library",
   "version": "1.0.0",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public"
+    "build": "rollup -c"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
