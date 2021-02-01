@@ -43,7 +43,7 @@ export default {
 	input: 'src/main.js',
 	output: {
 		sourcemap: true,
-		format: 'cjs',
+		format: 'esm',
 		name: 'app',
 		file: 'public/build/bundle.js'
 	},

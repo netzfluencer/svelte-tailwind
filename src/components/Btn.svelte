@@ -6,4 +6,4 @@
 	export let label
 </script>
 
-<button class="bg-gray-800 rounded-lg text-gray-100" on:click={() => dispatch('click')}>{label}(Svelte)</button>
+<button class="text-gray-100 bg-gray-800 rounded-lg" on:click={() => dispatch('click')}>{label}(Svelte)</button>
